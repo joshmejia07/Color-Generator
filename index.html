@@ -1,18 +1,40 @@
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <input type="color" id="color-picker" class="color-picker" value="#e66465">
-            <select id="color-scheme" class="color-scheme"></select>
-            <button id="get-color-btn" class="get-color-btn">Get color scheme</button>
-        </nav>
-        
-        <div id="color-bar-container" class="color-bar-container"></div>
-        <div id="hex-name-container" class="hex-name-container"></div>
-        
-        <script src="index.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Scheme Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <label for="color-picker">Color Input</label>
+      <input
+        type="color"
+        id="color-picker"
+        class="color-picker"
+        value="#e66465"
+      />
+      <select
+        id="color-scheme"
+        class="color-scheme"
+        title="color-scheme"
+      ></select>
+      <button id="get-color-btn" class="get-color-btn">Get color scheme</button>
+    </nav>
+
+    <div id="color-bar-container" class="color-bar-container"></div>
+    <div id="hex-name-container" class="hex-name-container"></div>
+
+    <script src="index.js"></script>
+  </body>
 </html>

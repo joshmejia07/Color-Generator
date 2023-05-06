@@ -1,57 +1,62 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
 }
 
 nav {
-    width: 570px;
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  width: 570px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: none;
 }
 
 .color-picker {
-    width: 3.75rem;
-    height: 2.5rem;
-    border: none;
+  width: 3.75rem;
+  height: 2.5rem;
+  border: none;
 }
 
-.color-scheme, .get-color-btn {
-    font-family: inherit;
-    color: #374151;
-    border: 2px solid #D1D5DB;
-    border-radius: 8px;
+.color-scheme,
+.get-color-btn {
+  font-family: inherit;
+  color: #374151;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
 }
 
 .color-scheme {
-    font-size: 1.1rem;
-    width: 19.5rem;
+  font-size: 1.1rem;
+  width: 19.5rem;
 }
 
 .get-color-btn {
-    background-color: transparent;
-    font-size: .9rem;
-    font-weight: 600; 
+  background-color: transparent;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .color-bar-container {
-    display: flex;
-    width: 550px;
-    margin: auto;
+  display: flex;
+  width: 550px;
+  margin: auto;
 }
 
 .color-bar {
-    width: 110px;
-    height: 400px;
+  width: 110px;
+  height: 400px;
 }
 
 .hex-name-container {
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-    width: 560px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 560px;
 }
-
